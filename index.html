@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apex Analytics - Football Player Performance Analyzer & Predictor using Probability & Statistics. By Team Goal Diggers."
+    />
+    <title>Apex Analytics — Football Performance Analyzer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <h1>Apex Analytics</h1>
+        <div class="team-badge">⚽ Goal Diggers</div>
+      </div>
+      <nav class="sidebar-nav">
+        <div class="nav-item active" data-page="dashboard">
+          <span class="nav-icon">📊</span
+          ><span class="nav-text">Dashboard</span>
+        </div>
+        <div class="nav-item" data-page="profile">
+          <span class="nav-icon">📋</span
+          ><span class="nav-text">Player Profile</span>
+        </div>
+        <div class="nav-item" data-page="compare">
+          <span class="nav-icon">⚔️</span><span class="nav-text">Compare</span>
+        </div>
+        <div class="nav-item" data-page="predict">
+          <span class="nav-icon">🔮</span><span class="nav-text">Predict</span>
+        </div>
+        <div class="nav-item" data-page="about">
+          <span class="nav-icon">ℹ️</span><span class="nav-text">About</span>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="members">
+          Ibrahim · Zain · Aashir<br />Sitara · Abdullah
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- DASHBOARD -->
+      <section id="page-dashboard" class="page-section active">
+        <div class="page-header">
+          <h2>📊 <span class="header-accent">Dashboard</span></h2>
+          <p>Premier League 2024-25 Season Overview</p>
+        </div>
+        <div class="stat-grid">
+          <div class="card">
+            <div class="card-title">Total Players</div>
+            <div class="card-value" id="dash-total-players">—</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Total Goals</div>
+            <div class="card-value" id="dash-total-goals">—</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Total Assists</div>
+            <div class="card-value" id="dash-total-assists">—</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Avg Rating</div>
+            <div class="card-value" id="dash-avg-rating">—</div>
+          </div>
+        </div>
+        <div class="chart-container">
+          <div class="chart-title">⚽ Top Scorers</div>
+          <canvas id="dash-chart" height="280"></canvas>
+        </div>
+        <div class="two-col">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Pos</th>
+                  <th>Goals</th>
+                  <th>Assists</th>
+                  <th>Rating</th>
+                </tr>
+              </thead>
+              <tbody id="dash-top-scorers"></tbody>
+            </table>
+          </div>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Assists</th>
+                  <th>Goals</th>
+                  <th>Rating</th>
+                </tr>
+              </thead>
+              <tbody id="dash-top-assists"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROFILE -->
+      <section id="page-profile" class="page-section">
+        <div class="page-header">
+          <h2>📋 <span class="header-accent">Player Profile</span></h2>
+          <p>Deep statistical analysis with probability formulas</p>
+        </div>
+        <div class="controls-bar" style="margin-bottom: 24px">
+          <div class="search-box">
+            <span class="search-icon">🔍</span
+            ><input
+              type="text"
+              id="profile-search"
+              placeholder="Enter player name..."
+              onkeydown="if (event.key === 'Enter') viewPlayer(this.value);"
+            />
+          </div>
+          <button
+            class="btn btn-primary"
+            onclick="viewPlayer($('#profile-search').value)"
+          >
+            Analyze
+          </button>
+        </div>
+        <div id="profile-content"><p style="color:var(--text-muted)">Search for a player or click on a player from the Players table.</p></div>
+      </section>
+
+      <!-- COMPARE -->
+      <section id="page-compare" class="page-section">
+        <div class="page-header">
+          <h2>⚔️ <span class="header-accent">Compare Players</span></h2>
+          <p>Head-to-head comparison with Bayesian probability analysis</p>
+        </div>
+        <div class="controls-bar">
+          <div class="search-box">
+            <span class="search-icon">👤</span
+            ><input type="text" id="compare-p1" placeholder="Player 1..." />
+          </div>
+          <div class="search-box">
+            <span class="search-icon">👤</span
+            ><input type="text" id="compare-p2" placeholder="Player 2..." />
+          </div>
+          <button class="btn btn-primary" onclick="doCompare()">Compare</button>
+        </div>
+        <div id="compare-result"></div>
+      </section>
+
+      <!-- PREDICT -->
+      <section id="page-predict" class="page-section">
+        <div class="page-header">
+          <h2>🔮 <span class="header-accent">Performance Predictor</span></h2>
+          <p>
+            Predict future performance using Poisson & Binomial distributions
+          </p>
+        </div>
+        <div class="controls-bar">
+          <div class="search-box">
+            <span class="search-icon">👤</span
+            ><input
+              type="text"
+              id="predict-player"
+              placeholder="Player name..."
+            />
+          </div>
+          <select id="predict-matches">
+            <option value="1">Next 1 Match</option>
+            <option value="3">Next 3 Matches</option>
+            <option value="5" selected>Next 5 Matches</option>
+            <option value="10">Next 10 Matches</option>
+          </select>
+          <button class="btn btn-primary" onclick="doPredict()">Predict</button>
+        </div>
+        <div id="predict-result"></div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="page-about" class="page-section">
+        <div class="about-hero">
+          <h2>APEX ANALYTICS</h2>
+          <p>Football Player Performance Analyzer & Predictor</p>
+          <div class="tag" style="margin-top: 16px">Premier League 2024-25</div>
+        </div>
+        <h3
+          style="
+            text-align: center;
+            margin-bottom: 24px;
+            color: var(--accent-2);
+          "
+        >
+          Team Goal Diggers ⚽
+        </h3>
+        <div class="members-grid">
+          <div class="member-card">
+            <div class="member-avatar">I</div>
+            <h4>Ibrahim</h4>
+            <p>Team Member</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">Z</div>
+            <h4>Zain</h4>
+            <p>Team Member</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">A</div>
+            <h4>Aashir</h4>
+            <p>Team Member</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">S</div>
+            <h4>Sitara</h4>
+            <p>Team Member</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">A</div>
+            <h4>Abdullah</h4>
+            <p>Team Member</p>
+          </div>
+        </div>
+        <div class="chart-container" style="margin-top: 32px">
+          <div class="chart-title">📐 Probability Formulas Used</div>
+          <div class="formula-grid">
+            <div class="formula-card">
+              <h4>Classical Probability</h4>
+              <code>P(A) = favorable / total</code>
+            </div>
+            <div class="formula-card">
+              <h4>Bayes' Theorem</h4>
+              <code>P(A|B) = P(B|A)×P(A) / P(B)</code>
+            </div>
+            <div class="formula-card">
+              <h4>Normal Distribution</h4>
+              <code>f(x) = (1/σ√2π) × e^(-(x-μ)²/2σ²)</code>
+            </div>
+            <div class="formula-card">
+              <h4>Poisson Distribution</h4>
+              <code>P(X=k) = (λ^k × e^(-λ)) / k!</code>
+            </div>
+            <div class="formula-card">
+              <h4>Binomial Distribution</h4>
+              <code>P(X=k) = C(n,k) × p^k × (1-p)^(n-k)</code>
+            </div>
+            <div class="formula-card">
+              <h4>Conditional Probability</h4>
+              <code>P(A|B) = P(A∩B) / P(B)</code>
+            </div>
+            <div class="formula-card">
+              <h4>Z-Score</h4>
+              <code>z = (x - μ) / σ</code>
+            </div>
+            <div class="formula-card">
+              <h4>Variance</h4>
+              <code>σ² = Σ(x - μ)² / n</code>
+            </div>
+            <div class="formula-card">
+              <h4>Standard Deviation</h4>
+              <code>σ = √(Σ(x - μ)² / n)</code>
+            </div>
+            <div class="formula-card">
+              <h4>Percentile Rank</h4>
+              <code>(below + 0.5×equal) / n × 100</code>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+# Apex Analytics - Requirements
+# Python built-in modules only, no external dependencies needed!

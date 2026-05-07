@@ -1,0 +1,88 @@
+name,team,position,age,matches_played,minutes_played,goals,assists,shots,shots_on_target,passes_completed,passes_attempted,tackles,interceptions,clean_sheets,yellow_cards,red_cards,dribbles_completed,aerial_duels_won,rating
+Erling Haaland,Manchester City,FWD,24,35,3012,27,5,128,62,420,510,12,4,0,3,0,18,42,7.8
+Mohamed Salah,Liverpool,FWD,32,34,2890,19,13,112,52,610,720,14,6,0,2,0,48,12,7.9
+Alexander Isak,Newcastle United,FWD,25,30,2580,21,3,98,48,380,460,8,3,0,4,0,22,28,7.5
+Cole Palmer,Chelsea,MID,22,33,2870,22,11,118,54,720,850,16,8,0,3,0,38,8,8.1
+Bukayo Saka,Arsenal,FWD,23,33,2810,9,13,88,38,680,790,22,10,0,5,0,62,10,7.6
+Son Heung-min,Tottenham,FWD,32,36,3060,17,10,102,44,540,650,10,5,0,3,0,34,14,7.3
+Ollie Watkins,Aston Villa,FWD,29,37,3240,15,13,94,40,410,520,14,4,0,6,0,24,30,7.2
+Bryan Mbeumo,Brentford,FWD,25,36,3120,13,8,82,38,440,560,12,5,0,4,0,32,16,7.0
+Dominic Solanke,Tottenham,FWD,27,35,2890,11,7,78,34,320,420,10,3,0,3,0,14,34,6.8
+Nicolas Jackson,Chelsea,FWD,24,34,2680,14,6,86,36,350,470,8,2,0,5,1,28,22,6.9
+Chris Wood,Nottingham Forest,FWD,33,35,2940,14,3,72,34,240,340,6,2,0,4,0,8,48,7.0
+Matheus Cunha,Wolverhampton,FWD,25,36,3100,12,8,76,32,480,600,18,6,0,7,1,42,18,7.1
+Jean-Philippe Mateta,Crystal Palace,FWD,27,33,2680,10,3,68,28,280,380,8,3,0,4,0,16,36,6.7
+Yoane Wissa,Brentford,FWD,28,30,2340,12,4,64,30,310,410,10,4,0,3,0,20,24,6.9
+Jarrod Bowen,West Ham,FWD,28,36,3060,12,7,80,34,520,640,16,6,0,5,0,36,14,7.0
+Danny Welbeck,Brighton,FWD,34,30,2160,7,4,52,22,260,360,8,3,0,2,0,12,28,6.6
+Kai Havertz,Arsenal,FWD,25,36,2980,14,5,74,32,580,700,20,8,0,4,0,16,32,7.1
+Marcus Rashford,Manchester United,FWD,27,26,1980,7,3,62,24,340,440,8,4,0,4,0,28,12,6.3
+Phil Foden,Manchester City,MID,24,24,1860,8,5,58,26,520,610,10,4,0,2,0,32,6,7.2
+Bruno Fernandes,Manchester United,MID,30,36,3180,8,8,82,30,840,1020,24,10,0,8,0,22,12,7.0
+Martin Odegaard,Arsenal,MID,26,22,1780,6,5,48,20,620,720,14,8,0,2,0,18,6,7.4
+Kevin De Bruyne,Manchester City,MID,33,18,1320,3,10,34,14,480,540,8,6,0,1,0,14,4,7.6
+James Maddison,Tottenham,MID,28,34,2720,6,8,64,24,640,780,18,8,0,4,0,26,8,6.9
+Eberechi Eze,Crystal Palace,MID,26,31,2580,7,4,68,28,520,660,12,4,0,3,0,44,10,7.0
+Morgan Rogers,Aston Villa,MID,22,35,2940,4,5,56,20,540,680,22,8,0,5,0,52,14,6.8
+Declan Rice,Arsenal,MID,26,34,3020,3,6,38,14,780,880,62,24,0,6,0,18,16,7.3
+Moises Caicedo,Chelsea,MID,23,36,3140,3,2,32,12,760,860,68,28,0,8,1,12,18,7.1
+Sandro Tonali,Newcastle United,MID,24,24,1920,2,4,28,10,540,640,42,18,0,3,0,16,12,7.0
+Rodrigo Bentancur,Tottenham,MID,27,22,1760,2,3,24,8,460,560,36,16,0,4,0,10,14,6.8
+Douglas Luiz,Aston Villa,MID,26,20,1520,2,2,30,10,420,520,28,12,0,3,0,8,10,6.6
+Alexis Mac Allister,Liverpool,MID,25,34,2860,4,6,42,16,720,820,44,18,0,5,0,14,8,7.2
+Ryan Gravenberch,Liverpool,MID,22,36,3180,3,3,36,12,780,880,52,22,0,4,0,20,10,7.3
+Bernardo Silva,Manchester City,MID,30,32,2640,4,7,46,18,680,760,20,10,0,2,0,36,4,7.1
+Noni Madueke,Chelsea,MID,22,32,2480,10,5,72,32,420,540,12,4,0,3,0,48,8,7.0
+Pedro Neto,Chelsea,MID,24,28,2040,3,7,44,16,380,500,10,4,0,2,0,42,6,6.8
+Anthony Gordon,Newcastle United,FWD,24,33,2780,11,5,70,30,480,600,14,6,0,4,0,38,10,7.1
+Virgil van Dijk,Liverpool,DEF,33,36,3240,3,2,22,10,920,980,32,28,18,3,0,4,62,7.8
+William Saliba,Arsenal,DEF,23,36,3200,2,1,16,6,880,940,38,32,16,3,0,2,48,7.7
+Gabriel Magalhaes,Arsenal,DEF,27,34,3020,4,1,24,10,720,800,28,22,14,6,0,2,52,7.5
+Josko Gvardiol,Manchester City,DEF,22,36,3100,5,3,28,12,760,840,42,18,12,4,0,6,28,7.2
+Ruben Dias,Manchester City,DEF,27,28,2420,1,0,14,4,680,740,24,20,10,3,0,2,36,7.1
+Lisandro Martinez,Manchester United,DEF,26,26,2240,1,1,12,4,520,600,38,22,6,7,0,4,24,6.9
+Lewis Hall,Newcastle United,DEF,20,32,2680,2,5,18,6,560,660,28,14,8,4,0,8,12,6.8
+Marc Cucurella,Chelsea,DEF,26,36,3120,1,4,14,4,640,740,36,16,12,5,0,6,14,7.0
+Antonee Robinson,Fulham,DEF,27,36,3240,2,6,16,6,580,700,30,14,8,3,0,10,10,7.0
+Pedro Porro,Tottenham,DEF,25,34,2920,3,4,30,12,620,740,34,16,6,6,0,14,18,6.9
+Trent Alexander-Arnold,Liverpool,DEF,26,28,2340,2,7,22,8,780,860,18,10,10,3,0,6,8,7.3
+Andrew Robertson,Liverpool,DEF,30,30,2520,1,5,14,4,640,720,22,12,12,4,0,4,10,7.1
+Ben White,Arsenal,DEF,27,32,2760,1,3,12,4,620,700,32,18,14,2,0,8,16,7.2
+Destiny Udogie,Tottenham,DEF,22,34,2880,1,2,10,4,520,640,34,16,6,5,0,12,14,6.8
+Levi Colwill,Chelsea,DEF,22,34,2840,2,1,16,6,560,660,30,18,10,4,0,4,22,6.9
+Ezri Konsa,Aston Villa,DEF,27,32,2720,2,1,18,6,480,580,36,22,8,5,0,2,34,7.0
+Alisson Becker,Liverpool,GK,32,28,2520,0,1,0,0,380,440,0,0,14,1,0,0,0,7.4
+Ederson,Manchester City,GK,31,30,2700,0,0,0,0,420,480,0,0,12,1,0,0,0,7.0
+David Raya,Arsenal,GK,29,34,3060,0,0,0,0,460,540,0,0,16,2,0,0,0,7.3
+Robert Sanchez,Chelsea,GK,27,32,2880,0,0,0,0,380,480,0,0,10,3,0,0,0,6.6
+Andre Onana,Manchester United,GK,28,36,3240,0,0,0,0,400,520,0,0,8,2,0,0,0,6.5
+Nick Pope,Newcastle United,GK,32,22,1980,0,0,0,0,280,360,0,0,8,1,0,0,0,6.9
+Bernd Leno,Fulham,GK,32,36,3240,0,0,0,0,340,440,0,0,6,2,0,0,0,6.5
+Alphonse Areola,West Ham,GK,31,28,2520,0,0,0,0,280,380,0,0,4,1,0,0,0,6.2
+Mark Flekken,Brentford,GK,31,36,3240,0,0,0,0,320,420,0,0,8,1,0,0,0,6.6
+Diogo Jota,Liverpool,FWD,28,28,2100,15,4,72,36,380,460,8,3,0,3,0,22,18,7.3
+Luis Diaz,Liverpool,FWD,28,34,2740,13,5,78,34,420,540,12,4,0,4,0,30,12,7.1
+Gabriel Jesus,Arsenal,FWD,27,24,1680,5,3,42,16,340,440,10,4,0,2,0,24,14,6.5
+Brennan Johnson,Tottenham,FWD,24,36,2460,5,5,48,18,360,460,10,4,0,2,0,20,12,6.5
+Callum Wilson,Newcastle United,FWD,33,12,780,3,1,22,10,100,140,2,1,0,1,0,4,10,6.4
+Raphinha,Barcelona,FWD,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Leandro Trossard,Arsenal,FWD,30,34,2120,12,3,56,28,380,480,8,4,0,3,0,16,8,7.0
+Hwang Hee-chan,Wolverhampton,FWD,29,32,2480,8,3,54,22,260,360,10,3,0,4,0,14,16,6.6
+Evan Ferguson,Brighton,FWD,20,22,1240,4,1,32,12,180,260,4,2,0,2,0,8,16,6.2
+Joao Pedro,Brighton,FWD,23,34,2640,8,5,58,24,380,500,12,4,0,3,0,26,14,6.8
+Rodrigo Muniz,Fulham,FWD,24,34,2760,10,3,66,28,300,420,8,2,0,4,0,12,22,6.8
+Raul Jimenez,Fulham,FWD,33,30,2160,8,4,52,22,280,380,6,3,0,3,0,10,28,6.6
+Callum Hudson-Odoi,Nottingham Forest,FWD,24,32,2440,5,6,42,16,380,500,10,4,0,3,0,36,8,6.7
+Morgan Gibbs-White,Nottingham Forest,MID,25,34,2860,5,6,52,18,580,720,22,8,0,6,0,32,10,6.9
+Dwight McNeil,Everton,MID,25,36,3100,3,5,44,16,520,660,14,6,0,3,0,24,12,6.6
+James Ward-Prowse,West Ham,MID,30,34,2860,4,6,46,18,620,760,20,8,0,5,0,8,14,6.7
+Ilkay Gundogan,Manchester City,MID,34,20,1440,2,3,24,8,440,500,12,6,0,1,0,6,8,6.8
+Amadou Onana,Aston Villa,MID,23,34,2780,3,1,28,10,540,660,48,20,0,7,0,10,24,6.9
+Yves Bissouma,Tottenham,MID,28,32,2480,1,2,18,6,520,640,42,18,0,6,1,8,16,6.7
+Lucas Paqueta,West Ham,MID,27,34,2820,6,5,54,22,560,700,18,8,0,5,0,30,12,6.9
+Emile Smith Rowe,Fulham,MID,24,30,2100,4,4,38,14,420,540,14,6,0,3,0,18,6,6.6
+Kaoru Mitoma,Brighton,MID,27,26,1860,5,3,42,16,360,480,8,4,0,2,0,44,6,6.8
+Pervis Estupinan,Brighton,DEF,27,28,2240,1,4,10,4,440,540,24,12,6,4,0,8,10,6.7
+Ola Aina,Nottingham Forest,DEF,28,36,3200,2,3,14,4,480,600,34,16,10,5,0,12,18,6.9
+Murillo,Nottingham Forest,DEF,22,36,3200,1,0,10,4,440,560,36,24,10,6,0,2,32,6.8
+Nuno Mendes,PSG,DEF,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
