@@ -1,0 +1,3 @@
+run = "python server.py"
+modules = ["python-3.10"]
+language = "python3"
